@@ -28,7 +28,7 @@ work and [cost-health-check](../skills/cost-health-check/SKILL.md) for proactive
   result file alone.
 - Use these sections:
 
-  1. **Scope**: currency, exact window displayed in MYT (UTC+8), granularity, cost type, and freshness caveat.
+  1. **Scope**: currency, exact UTC window, granularity, cost type, and freshness caveat.
   2. **Result**: one-sentence conclusion.
   3. **Top findings**: a short ranked table with aliases and absolute currency deltas.
   4. **Evidence**: commands or saved output files, listed briefly.
