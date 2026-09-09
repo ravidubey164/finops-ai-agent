@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "python3 scripts/hooks/block_azure_writes.py",
+        "windows": "wsl.exe -e python3 scripts/hooks/block_azure_writes.py",
+        "timeout": 15
+      }
+    ]
+  }
+}
